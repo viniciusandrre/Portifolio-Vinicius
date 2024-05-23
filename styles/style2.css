@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=League+Spartan:wght@100..900&display=swap');
+
+
+* {
+    font-family: "Briem Hand", cursive;
+}
+
+.biografia {
+    display:flex;
+    flex-direction:column;
+    width:50%;
+}
+
+.biografia__texto {
+   color:#FFF;  
+   margin:0 0 0 200px;
+   font-size:2em;
+   margin-bottom:80px;
+}
+
+@media (max-width:1200px) {
+
+    .biografia__texto {
+        font-size:1.8em;
+        margin-bottom:70px;
+    }
+
+    .rodape {
+        padding:15px;
+        font-size:1em;
+    }
+}
+
+@media (max-width:800px) {
+
+    .biografia__texto {
+        font-size:1.4em;
+        margin-bottom:50px;
+    }
+
+    .rodape {
+        padding:10px;
+    }
+
+    .rodape__texto {
+        font-size:0.8em;
+    }
+}
